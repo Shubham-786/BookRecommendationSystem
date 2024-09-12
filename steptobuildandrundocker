@@ -1,0 +1,4 @@
+Build docker image
+sudo docker build -t fastapi-book-management .
+Run docker image
+sudo docker run -d -p 8000:8000 fastapi-book-management
